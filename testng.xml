@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite6">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="com.salesforce.Oppurtunitycases"/>
+      <class name="com.salesforce.SalesforceLogin1"/>
+      <class name="com.salesforce.SFDCcontacts"/>
+      <class name="com.salesforce.Leads"/>
+       <class name="com.salesforce.AccountAutomation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite6 -->
